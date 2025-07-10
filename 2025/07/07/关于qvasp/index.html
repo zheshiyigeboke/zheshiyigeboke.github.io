@@ -1,0 +1,175 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>关于qvasp———vasp辅助软件 | 不知道</title><meta name="author" content="佚名"><meta name="copyright" content="佚名"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="qvasp usage v2.23qvasp是一款能够辅助快速使用VASP的软件工具集，通过相对独立的模块及易掌握的命令，能够使VASP用户迅速产生VASP的输入文件，以及迅速处理VASP的输出文件，便于进一步的图形可视化。qvasp采用Fortran和 bash 两种语言编写，具备外部工具易扩展、用户易上手使用的技术特点，能够在众多超算中心以及大规模材料计算发挥重要作用。  POSCAR  12">
+<meta property="og:type" content="article">
+<meta property="og:title" content="关于qvasp———vasp辅助软件">
+<meta property="og:url" content="http://example.com/2025/07/07/%E5%85%B3%E4%BA%8Eqvasp/index.html">
+<meta property="og:site_name" content="不知道">
+<meta property="og:description" content="qvasp usage v2.23qvasp是一款能够辅助快速使用VASP的软件工具集，通过相对独立的模块及易掌握的命令，能够使VASP用户迅速产生VASP的输入文件，以及迅速处理VASP的输出文件，便于进一步的图形可视化。qvasp采用Fortran和 bash 两种语言编写，具备外部工具易扩展、用户易上手使用的技术特点，能够在众多超算中心以及大规模材料计算发挥重要作用。  POSCAR  12">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://example.com/img/avatar.png">
+<meta property="article:published_time" content="2025-07-06T16:00:00.000Z">
+<meta property="article:modified_time" content="2025-07-10T14:27:13.636Z">
+<meta property="article:author" content="佚名">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/img/avatar.png"><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "关于qvasp———vasp辅助软件",
+  "url": "http://example.com/2025/07/07/%E5%85%B3%E4%BA%8Eqvasp/",
+  "image": "http://example.com/img/avatar.png",
+  "datePublished": "2025-07-06T16:00:00.000Z",
+  "dateModified": "2025-07-10T14:27:13.636Z",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "佚名",
+      "url": "http://example.com"
+    }
+  ]
+}</script><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://example.com/2025/07/07/%E5%85%B3%E4%BA%8Eqvasp/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"top_n_per_article":1,"unescape":false,"languages":{"hits_empty":"未找到符合您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: false,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '关于qvasp———vasp辅助软件',
+  isHighlightShrink: false,
+  isToc: true,
+  pageType: 'post'
+}</script><meta name="generator" content="Hexo 7.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/img/avatar.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">2</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">1</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">不知道</span></a><a class="nav-page-title" href="/"><span class="site-name">关于qvasp———vasp辅助软件</span><span class="site-name"><i class="fa-solid fa-circle-arrow-left"></i><span>  返回首页</span></span></a></span><div id="menus"><div id="search-button"><span class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></span></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="post-info"><h1 class="post-title">关于qvasp———vasp辅助软件</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="fa-fw post-meta-icon far fa-calendar-alt"></i><span class="post-meta-label">发表于</span><time datetime="2025-07-06T16:00:00.000Z" title="发表于 2025-07-07 00:00:00">2025-07-07</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/vasp/">vasp</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">浏览量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="container post-content" id="article-container"><h1 id="qvasp-usage-v2-23"><a href="#qvasp-usage-v2-23" class="headerlink" title="qvasp usage v2.23"></a>qvasp usage v2.23</h1><p><strong>qvasp是一款能够辅助快速使用VASP的软件工具集，通过相对独立的模块及易掌握的命令，能够使VASP用户迅速产生VASP的输入文件，以及迅速处理VASP的输出文件，便于进一步的图形可视化。qvasp采用Fortran和 bash 两种语言编写，具备外部工具易扩展、用户易上手使用的技术特点，能够在众多超算中心以及大规模材料计算发挥重要作用。</strong></p>
+<blockquote>
+<p>POSCAR</p>
+</blockquote>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">qvasp -fix     固定原子</span><br><span class="line">qvasp -it      过渡态插点方法1    </span><br><span class="line">qvasp -it2     过渡态插点方法2（用Materials studio的插点方式）</span><br><span class="line">qvasp -sc      扩展超胞          </span><br><span class="line">qvasp -zc      虚频校正</span><br><span class="line">qvasp -c2p     转换cif文件       </span><br><span class="line">qvasp -c2p2    转换cif文件为POSCAR(MS)</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>POTCAR</p>
+</blockquote>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">qvasp -pw91 ELE_Name   产生PAW_GGA_W91的赝视</span><br><span class="line">qvasp -pbe  ELE_Name   产生PAW_GGA_PBE</span><br><span class="line">qvasp -lda  ELE_Name   产生PAW_LDA</span><br><span class="line">qvasp -cp              检查POTCAR文件</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>KPOINTS</p>
+</blockquote>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">qvasp -k density   创建k点文件 Auto mesh</span><br><span class="line">qvasp -kline       创建k点文件 Line mode</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>INCAR</p>
+</blockquote>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">qvasp -relax     结构优化(ISIF=2)     </span><br><span class="line">qvasp -scf       静态自洽</span><br><span class="line">qvasp -freq      计算频率</span><br><span class="line">qvasp -ts        搜索过渡态             </span><br><span class="line">qvasp -elf       输出电荷局域信息</span><br><span class="line">qvasp -wk        计算真空能级，功函数   </span><br><span class="line">qvasp -band      计算能带，需要CHGCAR文件</span><br><span class="line">qvasp -bader     进行bader电荷分析     </span><br><span class="line">qvasp -dos       计算态密度，需要CHGCAr</span><br><span class="line">qvasp -md        跑分子动力学          </span><br><span class="line">qvasp -hse       计算含HSE06能带或态密度</span><br><span class="line">qvasp -elastic   计算弹性常数          </span><br><span class="line">qvasp -partchg   局部电荷             </span><br><span class="line">qvasp -optics    计算光学特性</span><br><span class="line">qvasp -phonon    计算声子谱</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>Tools</p>
+</blockquote>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line">qvasp -e          读取能量并查看是否收敛</span><br><span class="line">qvasp -gauss      将OUTCAR优化过程转化为Gauss View打开的log文件</span><br><span class="line">qvasp -p2c        将OUTCAR优化过程转化为.cif文件</span><br><span class="line">qvasp -findcell   Find the pri-cell of CONTCAR</span><br><span class="line">qvasp -wkd        处理计算真空势，功函数的计算结果</span><br><span class="line">qvasp -bandd      处理能带计算结果</span><br><span class="line">qvasp -dosd       处理态密度</span><br><span class="line">qvasp -ldos 1 2   得到LDOS数据</span><br><span class="line">qvasp -mde        分子动力学过程中能量变化</span><br><span class="line">qvasp -mdm        分子动力学过程中磁矩变化</span><br><span class="line">qvasp -elasticd   弹性常数</span><br><span class="line">qvasp -findsym    读取结构空间群信息，对称性</span><br><span class="line">qvasp -zpe        过渡态频率计算中读出零点能校正值</span><br><span class="line">qvasp -opticsd    处理计算光学性质的结果</span><br><span class="line">qvasp -3dkpoints  创建3d能带的k点文件</span><br><span class="line">qvasp -nanotube POS1      Roll nanosheet</span><br><span class="line">qvasp -out2arc            Get trajectory file</span><br><span class="line">qvasp -hej POS1 POS2      Construct heterojunction</span><br><span class="line">qvasp -scissorb           Corrected band via scissor</span><br><span class="line">qvasp -3dband             Obtain 3D band for 2D mater</span><br><span class="line">qvasp -cls POSCAR         Cleaving surface</span><br><span class="line">qvasp -mos POSCAR         Construct Moire superlattice</span><br><span class="line">qvasp -scissord           Corrected DOS via scissor</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>Customizable Tools</p>
+</blockquote>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">qvasp -vaspkit             call vaspkit</span><br><span class="line">qvasp -baderd              bader电荷分析</span><br><span class="line">qvasp -post_VASP           call post_VASP</span><br><span class="line">qvasp -den2vasp            将密度文件（CASTEP）转移CHGCAR（VASP）</span><br><span class="line">qvasp -3k density          创建3D materials的k点文件</span><br><span class="line">qvasp -res2vasp            转移res fomat to POSCAR</span><br><span class="line">qvasp -clean               清理所有文件，除了POSCAR INCAR KPOINTS POTCAR</span><br></pre></td></tr></table></figure>
+
+
+
+<p>If using qvasp in your research, please cite the paper:<br>[1] W.Yi,G.Tang, et al.qvasp:A Flexible Toolkit for VASP Users in Materials Simulations, Comput. Phys. Commun., 2020, 257, 107535</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="http://example.com">佚名</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="http://example.com/2025/07/07/%E5%85%B3%E4%BA%8Eqvasp/">http://example.com/2025/07/07/%E5%85%B3%E4%BA%8Eqvasp/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 <a href="http://example.com" target="_blank">不知道</a>！</span></div></div><div class="tag_share"><div class="post-share"><div class="social-share" data-image="/img/avatar.png" data-sites="wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><div class="post-reward"><div class="reward-button"><i class="fas fa-qrcode"></i>赞助</div><div class="reward-main"><ul class="reward-all"><li class="reward-item"><a href="/img/wechatpay.png" target="_blank"><img class="post-qr-code-img" src="/img/wechatpay.png" alt="微信"/></a><div class="post-qr-code-desc">微信</div></li><li class="reward-item"><a href="/img/alipay.png" target="_blank"><img class="post-qr-code-img" src="/img/alipay.png" alt="支付宝"/></a><div class="post-qr-code-desc">支付宝</div></li></ul></div></div><nav class="pagination-post" id="pagination"><a class="pagination-related full-width" href="/2025/07/07/hello-world/" title="Hello World"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-right"><div class="info-1"><div class="info-item-1">下一篇</div><div class="info-item-2">Hello World</div></div><div class="info-2"><div class="info-item-1">Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new &quot;My New Post&quot;  More info: Writing Run server1$ hexo server  More info: Server Generate static files1$ hexo generate  More info: Generating Deploy to remote sites1$ hexo deploy  More info: Deployment </div></div></div></a></nav></div><div class="aside-content" id="aside-content"><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#qvasp-usage-v2-23"><span class="toc-text">qvasp usage v2.23</span></a></li></ol></div></div></div></div></main><footer id="footer" style="background-image: url(/img/footer.png);"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;2025 By 佚名</span><span class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo 7.3.0</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.4.2</a></span></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="text-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js"></script></div></div></body></html>
